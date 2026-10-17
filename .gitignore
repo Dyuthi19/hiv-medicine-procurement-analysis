@@ -1,0 +1,30 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
+._*
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+
+# Source and derived data: keep local pending redistribution clarification
+/data/
+/outputs/
+
+# Tableau workbooks can contain embedded data
+/dashboards/
+*.twbx
+*.twb
+*.hyper
+*.tde
+
+# Keep notebooks, requirements, README and dashboard preview images
